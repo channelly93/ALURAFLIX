@@ -1,0 +1,63 @@
+body {
+    color: rgb(13, 156, 204);
+    background: rgb(253, 212, 251);
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 50px;
+}
+
+header {
+    border-bottom: solid 20px white;
+    padding: 0px;
+    font-size: 80px;
+}
+.chamada {
+    color: white;
+    Background: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(137, 94, 255);
+}
+
+.categoria h2 {
+    color: rgb(25, 131, 173);
+}
+
+.disney img {
+    height: 400px;
+    margin: 30xp;
+}
